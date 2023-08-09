@@ -1,0 +1,67 @@
+{
+  "id" : "https://saldasib.github.io/IIIF workbench test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in saldasib/IIIF-workbench-test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1944,
+    "id" : "https://saldasib.github.io/IIIF workbench test/images/VL1_f.41r/canvas/",
+    "label" : {
+      "none" : [ "VL1_f.41r" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://saldasib.github.io/IIIF workbench test/images/VL1_f.41r/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://saldasib.github.io/IIIF workbench test/images/VL1_f.41r/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 61,
+              "height" : 73
+            }, {
+              "width" : 122,
+              "height" : 145
+            }, {
+              "width" : 243,
+              "height" : 290
+            }, {
+              "width" : 486,
+              "height" : 580
+            }, {
+              "width" : 972,
+              "height" : 1160
+            }, {
+              "width" : 1944,
+              "height" : 2320
+            } ],
+            "profile" : "level0",
+            "width" : 1944,
+            "id" : "https://saldasib.github.io/IIIF workbench test/images/VL1_f.41r",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2320
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1944,
+          "id" : "https://saldasib.github.io/IIIF workbench test/images/VL1_f.41r/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2320
+        },
+        "target" : "https://saldasib.github.io/IIIF workbench test/images/VL1_f.41r/canvas/"
+      } ]
+    } ],
+    "height" : 2320
+  } ]
+}
